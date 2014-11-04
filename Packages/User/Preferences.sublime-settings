@@ -1,0 +1,12 @@
+{
+    "font_size": 12,
+    "ignored_packages": [
+        "Markdown",
+        "Vintage"
+    ],
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "default_line_ending": "unix",
+    "trim_trailing_white_space_on_save": true,
+    "rulers": [80]
+}
