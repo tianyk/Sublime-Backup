@@ -6,3 +6,6 @@ Backup/
 encoding_cache.json
 Package Control.last-run
 PyV8/
+
+# HTMLPrettify 
+HTMLPrettify.sublime-settings
