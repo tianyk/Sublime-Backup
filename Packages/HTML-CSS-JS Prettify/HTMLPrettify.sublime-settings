@@ -3,7 +3,7 @@
   // https://github.com/victorporof/Sublime-HTMLPrettify#oh-noez-command-not-found
   // http://nodejs.org/#download
   "node_path": {
-    "windows": "C:/Program Files/nodejs/node.exe",
+    "windows": "d:/nodejs/node.exe",
     "linux": "/usr/bin/nodejs",
     "osx": "/usr/local/bin/node"
   },
