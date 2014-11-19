@@ -1,0 +1,39 @@
+
+** 2014-11-19 10:03:11.427981 **:
+MarGo: MarGo build failed
+cmd: `['', 'build', '-v', '-x', '-o', 'gosublime.margo_r13.12.26-3_go?.exe', 'gosubli.me/margo']`
+stdout: ``
+stderr: ``
+exception: `Cannot find command `go``
+--------------------------------
+
+** 2014-11-19 10:03:11.472984 **:
+MarGo: Missing required environment variables: GOROOT GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+
+** 2014-11-19 10:09:25.704388 **:
+MarGo: MarGo build failed
+cmd: `['D:\\go\\bin\\go.exe', 'build', '-v', '-x', '-o', 'gosublime.margo_r13.12.26-3_go?.exe', 'gosubli.me/margo']`
+stdout: ``
+stderr: `go: cannot find GOROOT directory: c:\go`
+exception: `None`
+--------------------------------
+
+** 2014-11-19 10:09:25.716389 **:
+MarGo: Missing required environment variables: GOROOT GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+
+** 2014-11-19 10:09:43.711418 **:
+MarGo: MarGo build failed
+cmd: `['D:\\go\\bin\\go.exe', 'build', '-v', '-x', '-o', 'gosublime.margo_r13.12.26-3_go?.exe', 'gosubli.me/margo']`
+stdout: ``
+stderr: `go: cannot find GOROOT directory: c:\go`
+exception: `None`
+--------------------------------
+
+** 2014-11-19 10:09:43.724419 **:
+MarGo: Missing required environment variables: GOROOT GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
