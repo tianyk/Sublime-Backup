@@ -12,3 +12,6 @@ HTMLPrettify.sublime-settings
 
 # GoSulime
 Packages/User/GoSublime/windows-x64/log.txt
+Packages/GoSublime/
+Packages/User/GoSublime/
+Packages/User/GoSublime-aux.sublime-settings

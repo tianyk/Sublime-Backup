@@ -15,7 +15,6 @@
 + MarkdownEditing - Markdown编辑器。
 + Nodejs - NodeJs开发环境。
 + SublimeREPL - Python开发环境。
-+ GoSublime - Go开发环境
 
 
 # 使用说明
