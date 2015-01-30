@@ -1,10 +1,10 @@
 {
 	"default_line_ending": "unix",
-	"font_size": 11,
+	"font_size": 13,
 	"ignored_packages":
 	[
-		"Markdown",
-		"Vintage"
+		"Vintage",
+		"Markdown"
 	],
 	"tab_size": 4,
 	"translate_tabs_to_spaces": true,

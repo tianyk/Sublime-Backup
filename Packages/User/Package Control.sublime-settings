@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
+		"Alignment",
 		"All Autocomplete",
 		"AngularJS",
 		"AutoFileName",
@@ -15,6 +16,8 @@
 		"Markdown Preview",
 		"MarkdownEditing",
 		"Nodejs",
-		"SublimeREPL"
+		"Package Control",
+		"SublimeREPL",
+		"Terminal"
 	]
 }

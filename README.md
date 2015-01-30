@@ -14,7 +14,8 @@
 + Markdown Preview - Markdown文件预览。快捷键`alt + m`。
 + MarkdownEditing - Markdown编辑器。
 + Nodejs - NodeJs开发环境。
-+ SublimeREPL - Python开发环境。
++ SublimeREPL - 交互环境。
++ Terminal - 命令行。
 
 
 # 使用说明
