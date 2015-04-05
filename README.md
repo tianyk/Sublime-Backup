@@ -7,7 +7,7 @@
 + ConvertToUTF8 - 解决UTF8文件乱码。
 + ColorPicker - 颜色选择器。快捷键`ctrl + shift + c`。
 + DocBlockr - 通过`/*`方式添加注释。
-+ Emmet
++ Emmet - Zen Coding
 + HTML-CSS-JS Prettify - HTML-CSS-JS代码格式化。快捷键`ctrl + shift + h`。
 + IMESpport - 解决输入法不跟随问题。
 + JSFormat - JavaScript文件格式化。快捷键`ctrl + alt + f`。
@@ -16,6 +16,7 @@
 + Nodejs - NodeJs开发环境。
 + SublimeREPL - 交互环境。
 + Terminal - 命令行。
++ Git
 
 
 # 使用说明
