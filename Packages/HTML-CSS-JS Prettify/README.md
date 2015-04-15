@@ -62,7 +62,7 @@ For example, on Linux the path could be in `/home/<user>/.nvm/<node version>/bin
 
 On Windows, the absolute path to node.exe *must* use forward slashes.
 
-### Be very careful on Linux!
+### Be very careful on Debian!
 Depending on your distribution and default package sources, `apt-get install node` (for example) *will not* install node.js, contrary to all human common sense and popular belief. You want `nodejs` instead. Best thing is to make it yourself from http://nodejs.org/#download.
 
 ## Beautify on Save
@@ -84,48 +84,48 @@ These are the default options used by this plugin:
   // Documentation: https://github.com/einars/js-beautify/
   "html": {
     "allowed_file_extensions": ["htm", "html", "xhtml", "shtml", "xml", "svg"],
-    "brace_style": "collapse", // "expand", "end-expand", "none"
-    "end_with_newline": false,
-    "indent_char": " ",
+    "brace_style": "collapse", // [collapse|expand|end-expand|none] Put braces on the same line as control statements (default), or put braces on own line (Allman / ANSI style), or just put end braces on own line, or attempt to keep them where they are
+    "end_with_newline": false, // End output with newline
+    "indent_char": " ", // Indentation character
     "indent_handlebars": false, // e.g. {{#foo}}, {{/foo}}
-    "indent_inner_html": false,
-    "indent_scripts": "keep", // "separate", "normal"
-    "indent_size": 4,
-    "max_preserve_newlines": 10,
-    "preserve_newlines": true,
-    "unformatted": ["a", "span", "img", "code", "pre", "sub", "sup", "em", "strong", "b", "i", "u", "strike", "big","small", "pre", "h1", "h2", "h3", "h4", "h5", "h6"],
-    "wrap_line_length": 0
+    "indent_inner_html": false, // Indent <head> and <body> sections
+    "indent_scripts": "keep", // [keep|separate|normal]
+    "indent_size": 4, // Indentation size
+    "max_preserve_newlines": 0, // Maximum number of line breaks to be preserved in one chunk (0 disables)
+    "preserve_newlines": true, // Whether existing line breaks before elements should be preserved (only works before elements, not inside tags or for text)
+    "unformatted": ["a", "span", "img", "code", "pre", "sub", "sup", "em", "strong", "b", "i", "u", "strike", "big", "small", "pre", "h1", "h2", "h3", "h4", "h5", "h6"], // List of tags that should not be reformatted
+    "wrap_line_length": 0 // Lines should wrap at next opportunity after this number of characters (0 disables)
   },
   "css": {
     "allowed_file_extensions": ["css", "scss", "sass", "less"],
-    "end_with_newline": false,
-    "indent_char": " ",
-    "indent_size": 4,
+    "end_with_newline": false, // End output with newline
+    "indent_char": " ", // Indentation character
+    "indent_size": 4, // Indentation size
+    "newline_between_rules": true, // Add a new line after every css rule
     "selector_separator": " ",
-    "selector_separator_newline": false
+    "selector_separator_newline": true // Separate selectors with newline or not (e.g. "a,\nbr" or "a, br")
   },
   "js": {
     "allowed_file_extensions": ["js", "json", "jshintrc", "jsbeautifyrc"],
-    "brace_style": "collapse", // "expand", "end-expand", "none"
-    "break_chained_methods": false,
-    "e4x": false,
-    "end_with_newline": false,
-    "eval_code": false,
-    "indent_char": " ",
-    "indent_level": 0,
-    "indent_size": 4,
-    "indent_with_tabs": false,
-    "jslint_happy": false,
-    "keep_array_indentation": false,
-    "keep_function_indentation": false,
-    "max_preserve_newlines": 10,
-    "preserve_newlines": true,
-    "space_after_anon_function": false,
-    "space_before_conditional": true,
-    "space_in_empty_paren": false,
-    "space_in_paren": false,
-    "unescape_strings": false,
-    "wrap_line_length": 0
+    "brace_style": "collapse", // [collapse|expand|end-expand|none] Put braces on the same line as control statements (default), or put braces on own line (Allman / ANSI style), or just put end braces on own line, or attempt to keep them where they are
+    "break_chained_methods": false, // Break chained method calls across subsequent lines
+    "e4x": false, // Pass E4X xml literals through untouched
+    "end_with_newline": false, // End output with newline
+    "indent_char": " ", // Indentation character
+    "indent_level": 0, // Initial indentation level
+    "indent_size": 4, // Indentation size
+    "indent_with_tabs": false, // Indent with tabs, overrides `indent_size` and `indent_char`
+    "jslint_happy": false, // If true, then jslint-stricter mode is enforced
+    "keep_array_indentation": false, // Preserve array indentation
+    "keep_function_indentation": false, // Preserve function indentation
+    "max_preserve_newlines": 0, // Maximum number of line breaks to be preserved in one chunk (0 disables)
+    "preserve_newlines": true, // Whether existing line breaks should be preserved
+    "space_after_anon_function": false, // Should the space before an anonymous function's parens be added, "function()" vs "function ()"
+    "space_before_conditional": true, // Should the space before conditional statement be added, "if(true)" vs "if (true)"
+    "space_in_empty_paren": false, // Add padding spaces within empty paren, "f()" vs "f( )"
+    "space_in_paren": false, // Add padding spaces within paren, ie. f( a, b )
+    "unescape_strings": false, // Should printable characters in strings encoded in \xNN notation be unescaped, "example" vs "\x65\x78\x61\x6d\x70\x6c\x65"
+    "wrap_line_length": 0 // Lines should wrap at next opportunity after this number of characters (0 disables)
   }
 }
 ```
