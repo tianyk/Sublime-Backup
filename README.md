@@ -1,33 +1,34 @@
-# ²å¼ş
+# æ’ä»¶
 
-+ Package Control - À©Õ¹ÖĞĞÄ¡£
-+ All autocomplete - ×Ô¶¯Íê³ÉÀ©Õ¹¡£
-+ AngularJs - AngularJs¿ª·¢»·¾³¡£
-+ AutoFileName - ×Ô¶¯Íê³ÉÎÄ¼şÃûµÄÊäÈë¡£
-+ ConvertToUTF8 - ½â¾öUTF8ÎÄ¼şÂÒÂë¡£
-+ ColorPicker - ÑÕÉ«Ñ¡ÔñÆ÷¡£¿ì½İ¼ü`ctrl + shift + c`¡£
-+ DocBlockr - Í¨¹ı`/*`·½Ê½Ìí¼Ó×¢ÊÍ¡£
++ Package Control - æ‰©å±•ä¸­å¿ƒã€‚
++ All autocomplete - è‡ªåŠ¨å®Œæˆæ‰©å±•ã€‚
++ AngularJs - AngularJså¼€å‘ç¯å¢ƒã€‚
++ AutoFileName - è‡ªåŠ¨å®Œæˆæ–‡ä»¶åçš„è¾“å…¥ã€‚
++ ConvertToUTF8 - è§£å†³UTF8æ–‡ä»¶ä¹±ç ã€‚
++ ColorPicker - é¢œè‰²é€‰æ‹©å™¨ã€‚å¿«æ·é”®`ctrl + shift + c`ã€‚
++ DocBlockr - é€šè¿‡`/*`æ–¹å¼æ·»åŠ æ³¨é‡Šã€‚
 + Emmet - Zen Coding
-+ HTML-CSS-JS Prettify - HTML-CSS-JS´úÂë¸ñÊ½»¯¡£¿ì½İ¼ü`ctrl + shift + h`¡£
-+ IMESpport - ½â¾öÊäÈë·¨²»¸úËæÎÊÌâ¡£
-+ JSFormat - JavaScriptÎÄ¼ş¸ñÊ½»¯¡£¿ì½İ¼ü`ctrl + alt + f`¡£
-+ Markdown Preview - MarkdownÎÄ¼şÔ¤ÀÀ¡£¿ì½İ¼ü`alt + m`¡£
-+ MarkdownEditing - Markdown±à¼­Æ÷¡£
-+ Nodejs - NodeJs¿ª·¢»·¾³¡£
-+ SublimeREPL - ½»»¥»·¾³¡£
-+ Terminal - ÃüÁîĞĞ¡£
++ HTML-CSS-JS Prettify - HTML-CSS-JSä»£ç æ ¼å¼åŒ–ã€‚å¿«æ·é”®`ctrl + shift + h`ã€‚
++ IMESpport - è§£å†³è¾“å…¥æ³•ä¸è·Ÿéšé—®é¢˜ã€‚
++ JSFormat - JavaScriptæ–‡ä»¶æ ¼å¼åŒ–ã€‚å¿«æ·é”®`ctrl + alt + f`ã€‚
++ Markdown Preview - Markdownæ–‡ä»¶é¢„è§ˆã€‚å¿«æ·é”®`alt + m`ã€‚
++ MarkdownEditing - Markdownç¼–è¾‘å™¨ã€‚
++ Nodejs - NodeJså¼€å‘ç¯å¢ƒã€‚
++ SublimeREPL - äº¤äº’ç¯å¢ƒã€‚
++ Terminal - å‘½ä»¤è¡Œã€‚
 + Git
 + Ctag
 + CoolFormat
-+ Alignment - °´ÕÕµÈºÅ¶ÔÆä
++ Alignment - æŒ‰ç…§ç­‰å·å¯¹å…¶
++ Quoteâ€‹HTML - 
 
 
-# Ê¹ÓÃËµÃ÷
+# ä½¿ç”¨è¯´æ˜
 
-## Windows°æ±¾
+## Windowsç‰ˆæœ¬
 
-1. ¹Ø±ÕSublime Text±à¼­Æ÷¡£
-2. ÇĞ»»Ä¿Â¼µ½`C:/Users/[user]/AppData/Roaming` [user]µ±Ç°WindowsÓÃ»§Ãû¡£
-2. É¾³ıÎÄ¼ş¼Ğ`Sublime Text 3`¡£
-4. ´ò¿ªgitÃüÁîĞĞ£¬ÊäÈë`git clone https://git.oschina.net/tyk/Sublime-Backup.git 'Sublime Text 3'`¡£
-5. ÖØĞÂ´ò¿ªSublime Text¡£
+1. å…³é—­Sublime Textç¼–è¾‘å™¨ã€‚
+2. åˆ‡æ¢ç›®å½•åˆ°`C:/Users/[user]/AppData/Roaming` [user]å½“å‰Windowsç”¨æˆ·åã€‚
+2. åˆ é™¤æ–‡ä»¶å¤¹`Sublime Text 3`ã€‚
+4. æ‰“å¼€gitå‘½ä»¤è¡Œï¼Œè¾“å…¥`git clone https://git.oschina.net/tyk/Sublime-Backup.git 'Sublime Text 3'`ã€‚
+5. é‡æ–°æ‰“å¼€Sublime Textã€‚
