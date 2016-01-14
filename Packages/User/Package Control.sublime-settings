@@ -9,8 +9,11 @@
 		"All Autocomplete",
 		"AngularJS",
 		"AutoFileName",
+		"C Improved",
 		"ColorPicker",
 		"ConvertToUTF8",
+		"CoolFormat",
+		"CTags",
 		"DocBlockr",
 		"Emmet",
 		"Git",
@@ -22,6 +25,8 @@
 		"MarkdownEditing",
 		"Nodejs",
 		"Package Control",
+		"QuoteHTML",
+		"SublimeAStyleFormatter",
 		"SublimeREPL",
 		"Terminal"
 	]
