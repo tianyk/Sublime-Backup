@@ -13,4 +13,7 @@
     "args": {
         "parameters": ["-T", "Working in directory %CWD%"]
     }
+}, {
+    "command": "navigate_to_definition",
+    "keys": ["f3"]
 }]

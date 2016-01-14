@@ -157,6 +157,16 @@ Python
 
 Both stock Python and Execnet integrations support virtualenv. Various ways to work with Python, including PDB and IPython, are supported.
 
+For virtualenv created environments to be discoverable by SublimeREPL they should be created or symlinked in one of the following:
+
+* ~/.virtualenvs default for `virtualenvwrapper`__
+* ~/.venvs default for `venv`__
+
+Alternatively, more paths can be added to "python_virtualenv_paths" in the SublimeREPL configuration file.
+
+__ https://bitbucket.org/dhellmann/virtualenvwrapper
+__ https://github.com/wuub/venv
+
 Documentation contributions from a Python specialist are welcome.
 
 Configuration
@@ -211,6 +221,7 @@ SublimeREPL currently ships with support for the following languages:
 * Matlab
 * MozRepl
 * NodeJS
+* OCaml
 * Octave
 * Perl
 * PHP interactive mode
@@ -265,14 +276,14 @@ The menu configuration file `config/Lua/Menu.sublime-menu` contains::
           "children":
           [{
               "caption": "SublimeREPL",
-              "mnemonic": "r",
+              "mnemonic": "R",
               "id": "SublimeREPL",
               "children":
               [
                   {"command": "repl_open", 
                    "caption": "Lua",
                    "id": "repl_lua",
-                   "mnemonic": "l",
+                   "mnemonic": "L",
                    "args": {
                       "type": "subprocess",
                       "encoding": "utf8",

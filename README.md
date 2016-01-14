@@ -17,6 +17,9 @@
 + SublimeREPL - 交互环境。
 + Terminal - 命令行。
 + Git
++ Ctag
++ CoolFormat
++ Alignment - 按照等号对其
 
 
 # 使用说明

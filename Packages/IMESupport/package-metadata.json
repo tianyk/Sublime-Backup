@@ -1,1 +1,1 @@
-{"description": "IMESupport for Sublime Text 2/3", "version": "2014.08.18.20.36.15", "url": "https://github.com/chikatoike/IMESupport"}
+{"description": "IMESupport for Sublime Text 2/3", "sublime_text": "*", "version": "2015.07.24.06.31.16", "platforms": ["windows"], "url": "https://github.com/chikatoike/IMESupport", "dependencies": []}
