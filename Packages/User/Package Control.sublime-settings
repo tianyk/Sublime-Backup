@@ -26,6 +26,8 @@
 		"Nodejs",
 		"Package Control",
 		"QuoteHTML",
+		"Rust",
+		"RustAutoComplete",
 		"SublimeAStyleFormatter",
 		"SublimeREPL",
 		"Terminal"

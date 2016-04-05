@@ -16,4 +16,7 @@
 }, {
     "command": "navigate_to_definition",
     "keys": ["f3"]
+}, {
+    "keys": ["ctrl+alt+l"], "command": "js_format",
+    "context": [{"key": "selector", "operator": "equal", "operand": "source.js,source.json"}]
 }]
